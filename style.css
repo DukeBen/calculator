@@ -16,13 +16,29 @@ body{
 
 .container1{
     display:flex;
-}
-.clear,.delete{
+    justify-content: center;
     flex-grow:1;
+}
+.clear, .delete{
+    box-sizing: border-box;
+    height: 50px;
+    margin: 10px;
+    padding: 0 50px;
 }
 
 .ops-nums{
     display:flex;
-    flex:1;
     flex-wrap: wrap;
+    width: 350px;
+}
+
+.ops{
+    box-sizing: border-box;
+    margin: 13px;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
